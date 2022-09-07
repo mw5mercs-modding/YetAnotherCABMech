@@ -1,0 +1,12 @@
+{
+	"42_Wasp_MDL": {
+		"quirks": [
+			"extended-torso-twist"
+		],
+		"scale": "X=0.5 Y=0.5 Z=0.5"
+	},
+	"Revenant_MDL": {
+		"scale": "X=0.55 Y=0.55 Z=0.55",
+		"mechType": "quad"
+	}
+}

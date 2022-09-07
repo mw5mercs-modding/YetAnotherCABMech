@@ -1,0 +1,9 @@
+{
+	"extended-torso-twist": {
+		"name": "Extended Torso Twist",
+		"description": "This BattleMech has a wide range of motion at the torso joint, allowing it a larger field of fire.",
+		"properties": {
+			"torsoTwistAngleMulti": 1.5
+		}
+	}
+}
