@@ -1,16 +1,14 @@
 {
-   "displayName" : "YetAnotherCABMech",
-   "version" : "1.0",
-   "buildNumber" : 8,
-   "description" : "",
-   "author" : "trueg",
-   "authorURL" : "",
-   "defaultLoadOrder" : 0,
-   "gameVersion" : "1.1.0",
-   "manifest" : [
-      
-   ],
-   "steamPublishedFileId" : 0,
-   "steamLastSubmittedBuildNumber" : 0,
-   "steamModVisibility" : "Private"
+	"displayName": "YetAnotherCABMech",
+	"version": "1.0",
+	"buildNumber": 12,
+	"description": "My fusty mod",
+	"author": "Tromador",
+	"authorURL": "",
+	"defaultLoadOrder": 0,
+	"gameVersion": "1.1.0",
+	"manifest": [],
+	"steamPublishedFileId": 0,
+	"steamLastSubmittedBuildNumber": 0,
+	"steamModVisibility": "Private"
 }
