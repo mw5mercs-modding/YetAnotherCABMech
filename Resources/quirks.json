@@ -2,33 +2,26 @@
 	"EXTENDED-TORSO-TWIST": {
 		"name": "Extended Torso Twist",
 		"description": "This BattleMech has a wide range of motion at the torso joint, allowing it a larger field of fire.",
+		"color": "(R=1.0,G=0.901961,B=0.0,A=1)",
 		"properties": {
 			"torsoTwistAngleMulti": 1.5
 		}
 	},
-	"UBM-REVENANT": {
-        "name": "Revenant",
-        "description": "The Revenant drone is a highly mobile 'Mech with improved heat management capabilities and sensors.",
-        "color": "(R=0.5,G=1.0,B=0.0,A=1)",
-        "properties": {
-            "jumpJetFuelBurnTimeMulti": 1.15,
-            "jumpJetInitialZVelocityMulti": 1.15,
-            "jumpJetHeatMulti": 0.8,
+		"QUADSPEED": {
+		"name": "Quad Mech Speed",
+		"description": "Quad Mechs are naturally quicker than their two legged cousins.",
+		"color": "(R=1.0,G=0.901961,B=0.0,A=1)",
+		"properties": {
 			"topSpeedMulti": 1.2,
-			"topSpeedReverseMulti": 1.1,
-            "sensorRangeBonus": 200,
-            "sensorFov": 360,
-            "weapons": {
-                "groups": [
-                    {
-                        "weaponGroupName": "All Weapons",
-                        "tags": [
-                            "Weapon"
-                        ],
-                        "heatMulti": 0.9
-                    }
-                ]
-            }
-        }
-    }
+			"topSpeedReverseMulti": 1.1
+		}
+	},
+		"IMPROVED-COMS": {
+		"name": "Improved Communications",
+		"description": "This 'Mech has an exceptionally powerful communications suite and gains a benefit to sensor range",
+		"color": "(R=0.000000,G=0.360784,B=1.000000,A=1)",
+		"properties": {
+			"sensorRangeBonus": 100
+		}
+	}
 }

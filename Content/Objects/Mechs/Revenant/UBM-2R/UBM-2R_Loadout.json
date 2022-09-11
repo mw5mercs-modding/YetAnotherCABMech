@@ -49,37 +49,37 @@
 				},
 				"currentArmor":
 				{
-					"head": 30,
-					"centerTorso": 28,
+					"head": 26,
+					"centerTorso": 30,
 					"leftTorso": 20,
 					"rightTorso": 20,
-					"leftArm": 28,
-					"rightArm": 28,
-					"leftLeg": 28,
-					"rightLeg": 28
+					"leftArm": 26,
+					"rightArm": 26,
+					"leftLeg": 26,
+					"rightLeg": 26
 				},
 				"currentRearArmor":
 				{
-					"centerTorsoRear": 12,
-					"leftTorsoRear": 8,
-					"rightTorsoRear": 8
+					"centerTorsoRear": 10,
+					"leftTorsoRear": 7,
+					"rightTorsoRear": 7
 				},
 				"installedArmor":
 				{
-					"head": 30,
-					"centerTorso": 28,
+					"head": 26,
+					"centerTorso": 30,
 					"leftTorso": 20,
 					"rightTorso": 20,
-					"leftArm": 28,
-					"rightArm": 28,
-					"leftLeg": 28,
-					"rightLeg": 28
+					"leftArm": 26,
+					"rightArm": 26,
+					"leftLeg": 26,
+					"rightLeg": 26
 				},
 				"installedRearArmor":
 				{
-					"centerTorsoRear": 12,
-					"leftTorsoRear": 8,
-					"rightTorsoRear": 8
+					"centerTorsoRear": 10,
+					"leftTorsoRear": 7,
+					"rightTorsoRear": 7
 				},
 				"installedWeapons": [
 					{
@@ -212,8 +212,8 @@
 						},
 						{
 							"hardpointSlotId": "Torso_Left_BH1_Small",
-							"bWeaponGroup1": true,
-							"bWeaponGroup2": false,
+							"bWeaponGroup1": false,
+							"bWeaponGroup2": true,
 							"bWeaponGroup3": false,
 							"bWeaponGroup4": false,
 							"bWeaponGroup5": false,
@@ -221,8 +221,8 @@
 						},
 						{
 							"hardpointSlotId": "Torso_Left_BH2_Small",
-							"bWeaponGroup1": true,
-							"bWeaponGroup2": false,
+							"bWeaponGroup1": false,
+							"bWeaponGroup2": true,
 							"bWeaponGroup3": false,
 							"bWeaponGroup4": false,
 							"bWeaponGroup5": false,
@@ -230,8 +230,8 @@
 						},
 						{
 							"hardpointSlotId": "Torso_Right_BH1_Small",
-							"bWeaponGroup1": true,
-							"bWeaponGroup2": false,
+							"bWeaponGroup1": false,
+							"bWeaponGroup2": true,
 							"bWeaponGroup3": false,
 							"bWeaponGroup4": false,
 							"bWeaponGroup5": false,
@@ -239,15 +239,15 @@
 						},
 						{
 							"hardpointSlotId": "Torso_Right_BH2_Small",
-							"bWeaponGroup1": true,
-							"bWeaponGroup2": false,
+							"bWeaponGroup1": false,
+							"bWeaponGroup2": true,
 							"bWeaponGroup3": false,
 							"bWeaponGroup4": false,
 							"bWeaponGroup5": false,
 							"bWeaponGroup6": false
 						}
 					],
-					"chainFireGroups": []
+					"chainFireGroups": [ false, false, false, false, false, false ]
 				},
 				"equipment":
 				{
@@ -256,7 +256,22 @@
 							"mechPart": "Head",
 							"slottedEquipment": [
 								{
-									"slotId": 0,
+									"slotId": 1,
+									"slotTypeAssetId":
+									{
+										"iD": "MWSlotTypeDataAsset:Cockpit"
+									},
+									"equipmentData":
+									{
+										"equipmentId":
+										{
+											"iD": "MWHeatSinkDataAsset:COCKPIT_SMALL"
+										},
+										"healthState": "Healthy"
+									}
+								},
+								{
+									"slotId": 2,
 									"slotTypeAssetId":
 									{
 										"iD": "MWSlotTypeDataAsset:General_SlotType"
@@ -265,7 +280,7 @@
 									{
 										"equipmentId":
 										{
-											"iD": "MWHeatSinkDataAsset:ENDO_filler"
+											"iD": "MWECMDataAsset:EWECM"
 										},
 										"healthState": "Healthy"
 									}
@@ -276,7 +291,7 @@
 							"mechPart": "CenterTorso",
 							"slottedEquipment": [
 								{
-									"slotId": 2,
+									"slotId": 0,
 									"slotTypeAssetId":
 									{
 										"iD": "MWSlotTypeDataAsset:YAML_VANILLA_COUNTERWEIGHT_SLOT"
@@ -291,7 +306,7 @@
 									}
 								},
 								{
-									"slotId": 5,
+									"slotId": 1,
 									"slotTypeAssetId":
 									{
 										"iD": "MWSlotTypeDataAsset:Engine"
@@ -306,7 +321,7 @@
 									}
 								},
 								{
-									"slotId": 6,
+									"slotId": 2,
 									"slotTypeAssetId":
 									{
 										"iD": "MWSlotTypeDataAsset:enginecooling"
@@ -321,7 +336,7 @@
 									}
 								},
 								{
-									"slotId": 7,
+									"slotId": 3,
 									"slotTypeAssetId":
 									{
 										"iD": "MWSlotTypeDataAsset:Structureslot"
@@ -336,7 +351,7 @@
 									}
 								},
 								{
-									"slotId": 8,
+									"slotId": 9,
 									"slotTypeAssetId":
 									{
 										"iD": "MWSlotTypeDataAsset:General_SlotType"
@@ -351,7 +366,7 @@
 									}
 								},
 								{
-									"slotId": 9,
+									"slotId": 10,
 									"slotTypeAssetId":
 									{
 										"iD": "MWSlotTypeDataAsset:General_SlotType"
@@ -371,7 +386,7 @@
 							"mechPart": "LeftTorso",
 							"slottedEquipment": [
 								{
-									"slotId": 9,
+									"slotId": 0,
 									"slotTypeAssetId":
 									{
 										"iD": "MWSlotTypeDataAsset:General_SlotType"
@@ -386,7 +401,7 @@
 									}
 								},
 								{
-									"slotId": 13,
+									"slotId": 1,
 									"slotTypeAssetId":
 									{
 										"iD": "MWSlotTypeDataAsset:General_SlotType"
@@ -401,7 +416,42 @@
 									}
 								},
 								{
-									"slotId": 16,
+									"slotId": 3,
+									"slotTypeAssetId":
+									{
+										"iD": "MWSlotTypeDataAsset:General_SlotType"
+									},
+									"equipmentData":
+									{
+										"equipmentId":
+										{
+											"iD": "MWHeatSinkDataAsset:DoubleHeatSink"
+										},
+										"healthState": "Healthy"
+									}
+								},
+								{
+									"slotId": 4,
+									"slotTypeAssetId":
+									{
+										"iD": "MWSlotTypeDataAsset:General_SlotType"
+									},
+									"equipmentData":
+									{
+										"equipmentId":
+										{
+											"iD": "MWHeatSinkDataAsset:ENDO_filler"
+										},
+										"healthState": "Healthy"
+									}
+								}
+							]
+						},
+						{
+							"mechPart": "RightTorso",
+							"slottedEquipment": [
+								{
+									"slotId": 0,
 									"slotTypeAssetId":
 									{
 										"iD": "MWSlotTypeDataAsset:General_SlotType"
@@ -416,7 +466,22 @@
 									}
 								},
 								{
-									"slotId": 17,
+									"slotId": 1,
+									"slotTypeAssetId":
+									{
+										"iD": "MWSlotTypeDataAsset:General_SlotType"
+									},
+									"equipmentData":
+									{
+										"equipmentId":
+										{
+											"iD": "MWAmmoDataAsset:LMachineGun79_Standard_Half_AmmoEquipment"
+										},
+										"healthState": "Healthy"
+									}
+								},
+								{
+									"slotId": 2,
 									"slotTypeAssetId":
 									{
 										"iD": "MWSlotTypeDataAsset:General_SlotType"
@@ -429,12 +494,7 @@
 										},
 										"healthState": "Healthy"
 									}
-								}
-							]
-						},
-						{
-							"mechPart": "RightTorso",
-							"slottedEquipment": [
+								},
 								{
 									"slotId": 3,
 									"slotTypeAssetId":
@@ -451,37 +511,7 @@
 									}
 								},
 								{
-									"slotId": 7,
-									"slotTypeAssetId":
-									{
-										"iD": "MWSlotTypeDataAsset:General_SlotType"
-									},
-									"equipmentData":
-									{
-										"equipmentId":
-										{
-											"iD": "MWAmmoDataAsset:LMachineGun79_Standard_Half_AmmoEquipment"
-										},
-										"healthState": "Healthy"
-									}
-								},
-								{
-									"slotId": 8,
-									"slotTypeAssetId":
-									{
-										"iD": "MWSlotTypeDataAsset:General_SlotType"
-									},
-									"equipmentData":
-									{
-										"equipmentId":
-										{
-											"iD": "MWHeatSinkDataAsset:DoubleHeatSink"
-										},
-										"healthState": "Healthy"
-									}
-								},
-								{
-									"slotId": 9,
+									"slotId": 4,
 									"slotTypeAssetId":
 									{
 										"iD": "MWSlotTypeDataAsset:General_SlotType"

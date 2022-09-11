@@ -1,7 +1,7 @@
 {
 	"displayName": "YetAnotherCABMech",
 	"version": "1.0",
-	"buildNumber": 23,
+	"buildNumber": 30,
 	"description": "A collection of Mech Variants based on the Community Asset Bundle (https://www.moddb.com/mods/mw5-cab-open).\r\n\r\nRequires YAML and the CAB Mods",
 	"author": "Tromador",
 	"authorURL": "",
