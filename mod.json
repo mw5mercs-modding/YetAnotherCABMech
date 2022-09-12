@@ -1,8 +1,8 @@
 {
 	"displayName": "YetAnotherCABMech",
 	"version": "1.0",
-	"buildNumber": 12,
-	"description": "My fusty mod",
+	"buildNumber": 30,
+	"description": "A collection of Mech Variants based on the Community Asset Bundle (https://www.moddb.com/mods/mw5-cab-open).\r\n\r\nRequires YAML and the CAB Mods",
 	"author": "Tromador",
 	"authorURL": "",
 	"defaultLoadOrder": 0,

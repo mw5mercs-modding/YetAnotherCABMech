@@ -1,9 +1,27 @@
 {
-	"extended-torso-twist": {
+	"EXTENDED-TORSO-TWIST": {
 		"name": "Extended Torso Twist",
 		"description": "This BattleMech has a wide range of motion at the torso joint, allowing it a larger field of fire.",
+		"color": "(R=1.0,G=0.901961,B=0.0,A=1)",
 		"properties": {
 			"torsoTwistAngleMulti": 1.5
+		}
+	},
+		"QUADSPEED": {
+		"name": "Quad Mech Speed",
+		"description": "Quad Mechs are naturally quicker than their two legged cousins.",
+		"color": "(R=1.0,G=0.901961,B=0.0,A=1)",
+		"properties": {
+			"topSpeedMulti": 1.2,
+			"topSpeedReverseMulti": 1.1
+		}
+	},
+		"IMPROVED-COMS": {
+		"name": "Improved Communications",
+		"description": "This 'Mech has an exceptionally powerful communications suite and gains a benefit to sensor range",
+		"color": "(R=0.000000,G=0.360784,B=1.000000,A=1)",
+		"properties": {
+			"sensorRangeBonus": 100
 		}
 	}
 }
