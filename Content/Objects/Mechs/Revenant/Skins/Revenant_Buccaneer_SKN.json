@@ -1,0 +1,290 @@
+{
+	"supportedMechs":
+	{
+		"gameplayTags": [
+			{
+				"tagName": "Mech.Light.Revenant.UBM-1A"
+			},
+			{
+				"tagName": "Mech.Light.Revenant.UBM-2R"
+			},
+			{
+				"tagName": "Mech.Light.Revenant.UBM-2R2"
+			},
+			{
+				"tagName": "Mech.Light.Revenant.UBM-IS"
+			},
+			{
+				"tagName": "Mech.Light.Revenant.UBM-2R3"
+			}
+		]
+	},
+	"supportedUnit":
+	{
+		"unitType":
+		{
+			"tagName": "UnitType.Mech"
+		}
+	},
+	"paintTheme":
+	{
+		"tagName": "PaintTheme.Buccaneer"
+	},
+	"mechMaterialInstances": [
+		{
+			"materialSlotName": "Body",
+			"materialInstance": "/YetAnotherCABMech/Objects/Mechs/Revenant/Materials/Revenant_MTI.Revenant_MTI",
+			"instanceSkinParameters":
+			{
+				"vectorParameters": [],
+				"scalarParameters": [],
+				"textureParameters": [
+					{
+						"parameterName": "RGBPaintMask",
+						"value": "/YetAnotherCABMech/Objects/Mechs/Revenant/Materials/Textures/UBM_Buccaneer_MSK.UBM_Buccaneer_MSK"
+					},
+					{
+						"parameterName": "(R)Scratch(R)(G)Dirt(G)(B)Grime(B)",
+						"value": "/YetAnotherCABMech/Objects/Mechs/Revenant/Materials/Textures/Revenant_Body_Wear_MSK.Revenant_Body_Wear_MSK"
+					},
+					{
+						"parameterName": "NormalMap",
+						"value": "/YetAnotherCABMech/Objects/Mechs/Revenant/Materials/Textures/Revenant_Body_NRM.Revenant_Body_NRM"
+					},
+					{
+						"parameterName": "EmissiveMap",
+						"value": "/YetAnotherCABMech/Objects/Mechs/Revenant/Materials/Textures/Revenant_Body_EMS.Revenant_Body_EMS"
+					}
+				]
+			}
+		},
+		{
+			"materialSlotName": "Window",
+			"materialInstance": "/YetAnotherCABMech/Objects/Mechs/Revenant/Materials/Revenant_Window_MTI.Revenant_Window_MTI",
+			"instanceSkinParameters":
+			{
+				"vectorParameters": [],
+				"scalarParameters": [],
+				"textureParameters": []
+			}
+		},
+		{
+			"materialSlotName": "Body_LOD",
+			"materialInstance": "/YetAnotherCABMech/Objects/Mechs/Revenant/Materials/Revenant_LOD.Revenant_LOD",
+			"instanceSkinParameters":
+			{
+				"vectorParameters": [],
+				"scalarParameters": [],
+				"textureParameters": [
+					{
+						"parameterName": "RGBPaintMask",
+						"value": "/YetAnotherCABMech/Objects/Mechs/Revenant/Materials/Textures/Revenant_Body_Default_MSK.Revenant_Body_Default_MSK"
+					},
+					{
+						"parameterName": "(R)Scratch(R)(G)Dirt(G)(B)Grime(B)",
+						"value": "/YetAnotherCABMech/Objects/Mechs/Revenant/Materials/Textures/Revenant_Body_Wear_MSK.Revenant_Body_Wear_MSK"
+					},
+					{
+						"parameterName": "NormalMap",
+						"value": "/YetAnotherCABMech/Objects/Mechs/Revenant/Materials/Textures/Revenant_Body_NRM.Revenant_Body_NRM"
+					}
+				]
+			}
+		},
+		{
+			"materialSlotName": "Weapons",
+			"materialInstance": "/Game/Objects/Weapons/_common/Material/Weapons_Generic_MTI.Weapons_Generic_MTI",
+			"instanceSkinParameters":
+			{
+				"vectorParameters": [],
+				"scalarParameters": [],
+				"textureParameters": []
+			}
+		},
+		{
+			"materialSlotName": "Weapons_LOD",
+			"materialInstance": "/Game/Objects/Weapons/_common/Material/Weapons_Generic_LOD_MTI.Weapons_Generic_LOD_MTI",
+			"instanceSkinParameters":
+			{
+				"vectorParameters": [],
+				"scalarParameters": [],
+				"textureParameters": []
+			}
+		},
+		{
+			"materialSlotName": "MissileHead",
+			"materialInstance": "/Game/Objects/Weapons/_common/Material/MissileHead_MTI.MissileHead_MTI",
+			"instanceSkinParameters":
+			{
+				"vectorParameters": [],
+				"scalarParameters": [],
+				"textureParameters": []
+			}
+		},
+		{
+			"materialSlotName": "MissileHead_LOD",
+			"materialInstance": "/Game/Objects/Weapons/_common/Material/MissileHead_LOD_MTI.MissileHead_LOD_MTI",
+			"instanceSkinParameters":
+			{
+				"vectorParameters": [],
+				"scalarParameters": [],
+				"textureParameters": []
+			}
+		}
+	],
+	"mechDestroyedMaterialInstances": [
+		{
+			"materialSlotName": "Body",
+			"materialInstance": "/YetAnotherCABMech/Objects/Mechs/Revenant/Materials/Revenant_Destroyed_MTI.Revenant_Destroyed_MTI",
+			"instanceSkinParameters":
+			{
+				"vectorParameters": [],
+				"scalarParameters": [],
+				"textureParameters": [
+					{
+						"parameterName": "RGBPaintMask",
+						"value": "/YetAnotherCABMech/Objects/Mechs/Revenant/Materials/Textures/UBM_Buccaneer_MSK.UBM_Buccaneer_MSK"
+					},
+					{
+						"parameterName": "(R)Scratch(R)(G)Dirt(G)(B)Grime(B)",
+						"value": "/YetAnotherCABMech/Objects/Mechs/Revenant/Materials/Textures/Revenant_Body_Wear_MSK.Revenant_Body_Wear_MSK"
+					},
+					{
+						"parameterName": "NormalMap",
+						"value": "/YetAnotherCABMech/Objects/Mechs/Revenant/Materials/Textures/Revenant_Body_NRM.Revenant_Body_NRM"
+					}
+				]
+			}
+		},
+		{
+			"materialSlotName": "Window",
+			"materialInstance": "/YetAnotherCABMech/Objects/Mechs/Revenant/Materials/Revenant_Window_Destroyed_MTI.Revenant_Window_Destroyed_MTI",
+			"instanceSkinParameters":
+			{
+				"vectorParameters": [],
+				"scalarParameters": [],
+				"textureParameters": []
+			}
+		},
+		{
+			"materialSlotName": "Body_LOD",
+			"materialInstance": "/YetAnotherCABMech/Objects/Mechs/Revenant/Materials/Revenant_Destroyed_LOD.Revenant_Destroyed_LOD",
+			"instanceSkinParameters":
+			{
+				"vectorParameters": [],
+				"scalarParameters": [],
+				"textureParameters": [
+					{
+						"parameterName": "RGBPaintMask",
+						"value": "/YetAnotherCABMech/Objects/Mechs/Revenant/Materials/Textures/Revenant_Body_Default_MSK.Revenant_Body_Default_MSK"
+					},
+					{
+						"parameterName": "(R)Scratch(R)(G)Dirt(G)(B)Grime(B)",
+						"value": "/YetAnotherCABMech/Objects/Mechs/Revenant/Materials/Textures/Revenant_Body_Wear_MSK.Revenant_Body_Wear_MSK"
+					},
+					{
+						"parameterName": "NormalMap",
+						"value": "/YetAnotherCABMech/Objects/Mechs/Revenant/Materials/Textures/Revenant_Body_NRM.Revenant_Body_NRM"
+					}
+				]
+			}
+		},
+		{
+			"materialSlotName": "Weapons",
+			"materialInstance": "/Game/Objects/Weapons/_common/Material/Weapons_Generic_MTI.Weapons_Generic_MTI",
+			"instanceSkinParameters":
+			{
+				"vectorParameters": [],
+				"scalarParameters": [],
+				"textureParameters": []
+			}
+		},
+		{
+			"materialSlotName": "Weapons_LOD",
+			"materialInstance": "/Game/Objects/Weapons/_common/Material/Weapons_Generic_LOD_MTI.Weapons_Generic_LOD_MTI",
+			"instanceSkinParameters":
+			{
+				"vectorParameters": [],
+				"scalarParameters": [],
+				"textureParameters": []
+			}
+		},
+		{
+			"materialSlotName": "MissileHead",
+			"materialInstance": "/Game/Objects/Weapons/_common/Material/MissileHead_MTI.MissileHead_MTI",
+			"instanceSkinParameters":
+			{
+				"vectorParameters": [],
+				"scalarParameters": [],
+				"textureParameters": []
+			}
+		},
+		{
+			"materialSlotName": "MissileHead_LOD",
+			"materialInstance": "/Game/Objects/Weapons/_common/Material/MissileHead_LOD_MTI.MissileHead_LOD_MTI",
+			"instanceSkinParameters":
+			{
+				"vectorParameters": [],
+				"scalarParameters": [],
+				"textureParameters": []
+			}
+		},
+		{
+			"materialSlotName": "Damage",
+			"materialInstance": "/Game/Objects/Mechs/_common/Material/MechGreebles_Destroyed_MTI.MechGreebles_Destroyed_MTI",
+			"instanceSkinParameters":
+			{
+				"vectorParameters": [],
+				"scalarParameters": [],
+				"textureParameters": []
+			}
+		},
+		{
+			"materialSlotName": "Damage_LOD",
+			"materialInstance": "/Game/Objects/Mechs/_common/Material/MechGreebles_Destroyed_LOD.MechGreebles_Destroyed_LOD",
+			"instanceSkinParameters":
+			{
+				"vectorParameters": [],
+				"scalarParameters": [],
+				"textureParameters": []
+			}
+		}
+	],
+	"defaultPrimaryColor":
+	{
+		"r": 0.0262410007417202,
+		"g": 0.011611999943852425,
+		"b": 0.01095999963581562,
+		"a": 1
+	},
+	"defaultSecondaryColor":
+	{
+		"r": 0.18447500467300415,
+		"g": 0.0080230003222823143,
+		"b": 0.024157999083399773,
+		"a": 1
+	},
+	"defaultTertiaryColor":
+	{
+		"r": 0.65837502479553223,
+		"g": 0.46207699179649353,
+		"b": 0.34191501140594482,
+		"a": 1
+	},
+	"globalSkinParameters":
+	{
+		"vectorParameters": [],
+		"scalarParameters": [],
+		"textureParameters": []
+	},
+	"skinName": "BUCKANEER",
+	"frontendIcon": "/Game/UI/_common/Textures/camoSpec/Skin_Buccaneer_UIX.Skin_Buccaneer_UIX",
+	"bShowInMarket": true,
+	"lockPrimaryColor": false,
+	"lockSecondaryColor": false,
+	"lockTertiaryColor": false,
+	"associatedDLC":
+	{
+		"tagName": "None"
+	}
+}

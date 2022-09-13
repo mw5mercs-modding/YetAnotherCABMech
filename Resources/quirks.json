@@ -7,7 +7,7 @@
 			"torsoTwistAngleMulti": 1.5
 		}
 	},
-		"QUADSPEED": {
+	"QUADSPEED": {
 		"name": "Quad Mech Speed",
 		"description": "Quad Mechs are naturally quicker than their two legged cousins.",
 		"color": "(R=1.0,G=0.901961,B=0.0,A=1)",
@@ -16,12 +16,52 @@
 			"topSpeedReverseMulti": 1.1
 		}
 	},
-		"IMPROVED-COMS": {
+	"IMPROVED-COMS": {
 		"name": "Improved Communications",
 		"description": "This 'Mech has an exceptionally powerful communications suite and gains a benefit to sensor range",
 		"color": "(R=0.000000,G=0.360784,B=1.000000,A=1)",
 		"properties": {
 			"sensorRangeBonus": 100
+		}
+	},
+	"UBM-HERO": {
+		"name": "Revenant Hero Endurance",
+		"description": "The Revenant Hero comes equipped with higher density armor",
+		"color": "(R=1.0,G=0.0,B=0.0,A=1)",
+		"properties": {
+			"armorBonus": {
+				"CenterTorso": 12,
+				"RightTorso": 10,
+				"LeftTorso": 10,
+				"RightArm": 8,
+				"LeftArm": 8,
+				"RightLeg": 8,
+				"LeftLeg": 8
+			}
+		}
+	},
+	"UBM-IS": {
+		"name": "Inferno Spider",
+		"description": "Unique set of quirks for the Revenant Inferno Spider Hero'Mech",
+		"color": "(R=1,G=0.4,B=0,A=1)",
+		"properties": {
+            "jumpJetFuelBurnTimeMulti": 1.15,
+            "jumpJetInitialZVelocityMulti": 1.15,
+            "jumpJetHeatMulti": 0.8,
+            "weapons": {
+                "groups": [
+							{
+								"weaponGroupName": "Energy",
+						"tags": [
+							"Weapon.Energy"
+						],
+						"heatMulti": 0.9,
+						"optimalRangeMulti": 1.1,
+						"maxRangeMulti": 1.1,
+						"damageMulti": 1.1
+					}
+				]
+            }
 		}
 	}
 }

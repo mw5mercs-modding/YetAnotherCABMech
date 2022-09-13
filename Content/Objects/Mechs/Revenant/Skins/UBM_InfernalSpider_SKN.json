@@ -1,0 +1,278 @@
+{
+	"supportedMechs":
+	{
+		"gameplayTags": [
+			{
+				"tagName": "Mech.Light.Revenant.UBM-IS"
+			}
+		]
+	},
+	"supportedUnit":
+	{
+		"unitType":
+		{
+			"tagName": "UnitType.Mech"
+		}
+	},
+	"paintTheme":
+	{
+		"tagName": "PaintTheme.HERO"
+	},
+	"mechMaterialInstances": [
+		{
+			"materialSlotName": "Body",
+			"materialInstance": "/YetAnotherCABMech/Objects/Mechs/Revenant/Materials/Revenant_MTI.Revenant_MTI",
+			"instanceSkinParameters":
+			{
+				"vectorParameters": [],
+				"scalarParameters": [],
+				"textureParameters": [
+					{
+						"parameterName": "RGBPaintMask",
+						"value": "/YetAnotherCABMech/Objects/Mechs/Revenant/Materials/Textures/UBM-IS_Body_MSK.UBM-IS_Body_MSK"
+					},
+					{
+						"parameterName": "(R)Scratch(R)(G)Dirt(G)(B)Grime(B)",
+						"value": "/YetAnotherCABMech/Objects/Mechs/Revenant/Materials/Textures/UBM-IS_Wear_MSK.UBM-IS_Wear_MSK"
+					},
+					{
+						"parameterName": "NormalMap",
+						"value": "/YetAnotherCABMech/Objects/Mechs/Revenant/Materials/Textures/Revenant_Body_NRM.Revenant_Body_NRM"
+					},
+					{
+						"parameterName": "EmissiveMap",
+						"value": "/YetAnotherCABMech/Objects/Mechs/Revenant/Materials/Textures/UBM-IS_EMS.UBM-IS_EMS"
+					}
+				]
+			}
+		},
+		{
+			"materialSlotName": "Window",
+			"materialInstance": "/YetAnotherCABMech/Objects/Mechs/Revenant/Materials/Revenant_Window_MTI.Revenant_Window_MTI",
+			"instanceSkinParameters":
+			{
+				"vectorParameters": [],
+				"scalarParameters": [],
+				"textureParameters": []
+			}
+		},
+		{
+			"materialSlotName": "Body_LOD",
+			"materialInstance": "/YetAnotherCABMech/Objects/Mechs/Revenant/Materials/Revenant_LOD.Revenant_LOD",
+			"instanceSkinParameters":
+			{
+				"vectorParameters": [],
+				"scalarParameters": [],
+				"textureParameters": [
+					{
+						"parameterName": "RGBPaintMask",
+						"value": "/YetAnotherCABMech/Objects/Mechs/Revenant/Materials/Textures/UBM-IS_Body_MSK.UBM-IS_Body_MSK"
+					},
+					{
+						"parameterName": "(R)Scratch(R)(G)Dirt(G)(B)Grime(B)",
+						"value": "/YetAnotherCABMech/Objects/Mechs/Revenant/Materials/Textures/UBM-IS_Wear_MSK.UBM-IS_Wear_MSK"
+					},
+					{
+						"parameterName": "NormalMap",
+						"value": "/YetAnotherCABMech/Objects/Mechs/Revenant/Materials/Textures/Revenant_Body_NRM.Revenant_Body_NRM"
+					}
+				]
+			}
+		},
+		{
+			"materialSlotName": "Weapons",
+			"materialInstance": "/Game/Objects/Weapons/_common/Material/Weapons_Generic_MTI.Weapons_Generic_MTI",
+			"instanceSkinParameters":
+			{
+				"vectorParameters": [],
+				"scalarParameters": [],
+				"textureParameters": []
+			}
+		},
+		{
+			"materialSlotName": "Weapons_LOD",
+			"materialInstance": "/Game/Objects/Weapons/_common/Material/Weapons_Generic_LOD_MTI.Weapons_Generic_LOD_MTI",
+			"instanceSkinParameters":
+			{
+				"vectorParameters": [],
+				"scalarParameters": [],
+				"textureParameters": []
+			}
+		},
+		{
+			"materialSlotName": "MissileHead",
+			"materialInstance": "/Game/Objects/Weapons/_common/Material/MissileHead_MTI.MissileHead_MTI",
+			"instanceSkinParameters":
+			{
+				"vectorParameters": [],
+				"scalarParameters": [],
+				"textureParameters": []
+			}
+		},
+		{
+			"materialSlotName": "MissileHead_LOD",
+			"materialInstance": "/Game/Objects/Weapons/_common/Material/MissileHead_LOD_MTI.MissileHead_LOD_MTI",
+			"instanceSkinParameters":
+			{
+				"vectorParameters": [],
+				"scalarParameters": [],
+				"textureParameters": []
+			}
+		}
+	],
+	"mechDestroyedMaterialInstances": [
+		{
+			"materialSlotName": "Body",
+			"materialInstance": "/YetAnotherCABMech/Objects/Mechs/Revenant/Materials/Revenant_Destroyed_MTI.Revenant_Destroyed_MTI",
+			"instanceSkinParameters":
+			{
+				"vectorParameters": [],
+				"scalarParameters": [],
+				"textureParameters": [
+					{
+						"parameterName": "RGBPaintMask",
+						"value": "/YetAnotherCABMech/Objects/Mechs/Revenant/Materials/Textures/UBM-IS_Body_MSK.UBM-IS_Body_MSK"
+					},
+					{
+						"parameterName": "(R)Scratch(R)(G)Dirt(G)(B)Grime(B)",
+						"value": "/YetAnotherCABMech/Objects/Mechs/Revenant/Materials/Textures/UBM-IS_Wear_MSK.UBM-IS_Wear_MSK"
+					},
+					{
+						"parameterName": "NormalMap",
+						"value": "/YetAnotherCABMech/Objects/Mechs/Revenant/Materials/Textures/Revenant_Body_NRM.Revenant_Body_NRM"
+					}
+				]
+			}
+		},
+		{
+			"materialSlotName": "Window",
+			"materialInstance": "/YetAnotherCABMech/Objects/Mechs/Revenant/Materials/Revenant_Window_Destroyed_MTI.Revenant_Window_Destroyed_MTI",
+			"instanceSkinParameters":
+			{
+				"vectorParameters": [],
+				"scalarParameters": [],
+				"textureParameters": []
+			}
+		},
+		{
+			"materialSlotName": "Body_LOD",
+			"materialInstance": "/YetAnotherCABMech/Objects/Mechs/Revenant/Materials/Revenant_Destroyed_LOD.Revenant_Destroyed_LOD",
+			"instanceSkinParameters":
+			{
+				"vectorParameters": [],
+				"scalarParameters": [],
+				"textureParameters": [
+					{
+						"parameterName": "RGBPaintMask",
+						"value": "/YetAnotherCABMech/Objects/Mechs/Revenant/Materials/Textures/UBM-IS_Body_MSK.UBM-IS_Body_MSK"
+					},
+					{
+						"parameterName": "(R)Scratch(R)(G)Dirt(G)(B)Grime(B)",
+						"value": "/YetAnotherCABMech/Objects/Mechs/Revenant/Materials/Textures/UBM-IS_Wear_MSK.UBM-IS_Wear_MSK"
+					},
+					{
+						"parameterName": "NormalMap",
+						"value": "/YetAnotherCABMech/Objects/Mechs/Revenant/Materials/Textures/Revenant_Body_NRM.Revenant_Body_NRM"
+					}
+				]
+			}
+		},
+		{
+			"materialSlotName": "Weapons",
+			"materialInstance": "/Game/Objects/Weapons/_common/Material/Weapons_Generic_MTI.Weapons_Generic_MTI",
+			"instanceSkinParameters":
+			{
+				"vectorParameters": [],
+				"scalarParameters": [],
+				"textureParameters": []
+			}
+		},
+		{
+			"materialSlotName": "Weapons_LOD",
+			"materialInstance": "/Game/Objects/Weapons/_common/Material/Weapons_Generic_LOD_MTI.Weapons_Generic_LOD_MTI",
+			"instanceSkinParameters":
+			{
+				"vectorParameters": [],
+				"scalarParameters": [],
+				"textureParameters": []
+			}
+		},
+		{
+			"materialSlotName": "MissileHead",
+			"materialInstance": "/Game/Objects/Weapons/_common/Material/MissileHead_MTI.MissileHead_MTI",
+			"instanceSkinParameters":
+			{
+				"vectorParameters": [],
+				"scalarParameters": [],
+				"textureParameters": []
+			}
+		},
+		{
+			"materialSlotName": "MissileHead_LOD",
+			"materialInstance": "/Game/Objects/Weapons/_common/Material/MissileHead_LOD_MTI.MissileHead_LOD_MTI",
+			"instanceSkinParameters":
+			{
+				"vectorParameters": [],
+				"scalarParameters": [],
+				"textureParameters": []
+			}
+		},
+		{
+			"materialSlotName": "Damage",
+			"materialInstance": "/Game/Objects/Mechs/_common/Material/MechGreebles_Destroyed_MTI.MechGreebles_Destroyed_MTI",
+			"instanceSkinParameters":
+			{
+				"vectorParameters": [],
+				"scalarParameters": [],
+				"textureParameters": []
+			}
+		},
+		{
+			"materialSlotName": "Damage_LOD",
+			"materialInstance": "/Game/Objects/Mechs/_common/Material/MechGreebles_Destroyed_LOD.MechGreebles_Destroyed_LOD",
+			"instanceSkinParameters":
+			{
+				"vectorParameters": [],
+				"scalarParameters": [],
+				"textureParameters": []
+			}
+		}
+	],
+	"defaultPrimaryColor":
+	{
+		"r": 0.0041669998317956924,
+		"g": 0.0025889999233186245,
+		"b": 0.0020520000252872705,
+		"a": 1
+	},
+	"defaultSecondaryColor":
+	{
+		"r": 0.1635420024394989,
+		"g": 0.0080880001187324524,
+		"b": 0,
+		"a": 1
+	},
+	"defaultTertiaryColor":
+	{
+		"r": 0.27500000596046448,
+		"g": 0.0057179997675120831,
+		"b": 0,
+		"a": 1
+	},
+	"globalSkinParameters":
+	{
+		"vectorParameters": [],
+		"scalarParameters": [],
+		"textureParameters": []
+	},
+	"skinName": "Infernal Spider",
+	"frontendIcon": "/Game/UI/_common/Textures/camoSpec/Skin_Hero_UIX.Skin_Hero_UIX",
+	"bShowInMarket": true,
+	"lockPrimaryColor": false,
+	"lockSecondaryColor": false,
+	"lockTertiaryColor": false,
+	"associatedDLC":
+	{
+		"tagName": "None"
+	}
+}
