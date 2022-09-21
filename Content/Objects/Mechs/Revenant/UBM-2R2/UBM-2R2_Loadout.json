@@ -1,9 +1,9 @@
 			{
 				"mechDataAssetId":
 				{
-					"iD": "MWMechDataAsset:YMC_UBM-2R_MDA"
+					"iD": "MWMechDataAsset:YMC_UBM-2R2_MDA"
 				},
-				"customName": "REVENANT UBM-2R",
+				"customName": "2R2",
 				"skinCustomization":
 				{
 					"mechSkinAssetId":
@@ -83,23 +83,34 @@
 				},
 				"installedWeapons": [
 					{
-						"hardpointSlotId": "Torso_Right_EH1_Medium",
+						"hardpointSlotId": "Torso_Right_MH1_Medium",
 						"weaponData":
 						{
 							"weaponId":
 							{
-								"iD": "MWTraceWeaponDataAsset:ERMediumLaser79"
+								"iD": "MWMissileWeaponDataAsset:LRM5"
 							},
 							"healthState": "Healthy"
 						}
 					},
 					{
-						"hardpointSlotId": "Torso_Right_EH2_Medium",
+						"hardpointSlotId": "Torso_Left_MH1_Medium",
 						"weaponData":
 						{
 							"weaponId":
 							{
-								"iD": "MWTraceWeaponDataAsset:ERMediumLaser79"
+								"iD": "MWMissileWeaponDataAsset:LRM5"
+							},
+							"healthState": "Healthy"
+						}
+					},
+					{
+						"hardpointSlotId": "Torso_Right_EH1_Medium",
+						"weaponData":
+						{
+							"weaponId":
+							{
+								"iD": "MWTraceWeaponDataAsset:ERSmallLaser79"
 							},
 							"healthState": "Healthy"
 						}
@@ -110,62 +121,7 @@
 						{
 							"weaponId":
 							{
-								"iD": "MWTraceWeaponDataAsset:ERMediumLaser79"
-							},
-							"healthState": "Healthy"
-						}
-					},
-					{
-						"hardpointSlotId": "Torso_Left_EH2_Medium",
-						"weaponData":
-						{
-							"weaponId":
-							{
-								"iD": "MWTraceWeaponDataAsset:ERMediumLaser79"
-							},
-							"healthState": "Healthy"
-						}
-					},
-					{
-						"hardpointSlotId": "Torso_Right_BH1_Small",
-						"weaponData":
-						{
-							"weaponId":
-							{
-								"iD": "MWTraceWeaponDataAsset:LMachineGun79"
-							},
-							"healthState": "Healthy"
-						}
-					},
-					{
-						"hardpointSlotId": "Torso_Right_BH2_Small",
-						"weaponData":
-						{
-							"weaponId":
-							{
-								"iD": "MWTraceWeaponDataAsset:LMachineGun79"
-							},
-							"healthState": "Healthy"
-						}
-					},
-					{
-						"hardpointSlotId": "Torso_Left_BH1_Small",
-						"weaponData":
-						{
-							"weaponId":
-							{
-								"iD": "MWTraceWeaponDataAsset:LMachineGun79"
-							},
-							"healthState": "Healthy"
-						}
-					},
-					{
-						"hardpointSlotId": "Torso_Left_BH2_Small",
-						"weaponData":
-						{
-							"weaponId":
-							{
-								"iD": "MWTraceWeaponDataAsset:LMachineGun79"
+								"iD": "MWTraceWeaponDataAsset:ERSmallLaser79"
 							},
 							"healthState": "Healthy"
 						}
@@ -175,7 +131,7 @@
 				{
 					"weaponGroups": [
 						{
-							"hardpointSlotId": "Torso_Left_EH2_Medium",
+							"hardpointSlotId": "Torso_Right_EH1_Medium",
 							"bWeaponGroup1": true,
 							"bWeaponGroup2": false,
 							"bWeaponGroup3": false,
@@ -193,25 +149,7 @@
 							"bWeaponGroup6": false
 						},
 						{
-							"hardpointSlotId": "Torso_Right_EH2_Medium",
-							"bWeaponGroup1": true,
-							"bWeaponGroup2": false,
-							"bWeaponGroup3": false,
-							"bWeaponGroup4": false,
-							"bWeaponGroup5": false,
-							"bWeaponGroup6": false
-						},
-						{
-							"hardpointSlotId": "Torso_Right_EH1_Medium",
-							"bWeaponGroup1": true,
-							"bWeaponGroup2": false,
-							"bWeaponGroup3": false,
-							"bWeaponGroup4": false,
-							"bWeaponGroup5": false,
-							"bWeaponGroup6": false
-						},
-						{
-							"hardpointSlotId": "Torso_Right_BH2_Small",
+							"hardpointSlotId": "Torso_Right_MH1_Medium",
 							"bWeaponGroup1": false,
 							"bWeaponGroup2": true,
 							"bWeaponGroup3": false,
@@ -220,25 +158,7 @@
 							"bWeaponGroup6": false
 						},
 						{
-							"hardpointSlotId": "Torso_Right_BH1_Small",
-							"bWeaponGroup1": false,
-							"bWeaponGroup2": true,
-							"bWeaponGroup3": false,
-							"bWeaponGroup4": false,
-							"bWeaponGroup5": false,
-							"bWeaponGroup6": false
-						},
-						{
-							"hardpointSlotId": "Torso_Left_BH2_Small",
-							"bWeaponGroup1": false,
-							"bWeaponGroup2": true,
-							"bWeaponGroup3": false,
-							"bWeaponGroup4": false,
-							"bWeaponGroup5": false,
-							"bWeaponGroup6": false
-						},
-						{
-							"hardpointSlotId": "Torso_Left_BH1_Small",
+							"hardpointSlotId": "Torso_Left_MH1_Medium",
 							"bWeaponGroup1": false,
 							"bWeaponGroup2": true,
 							"bWeaponGroup3": false,
@@ -321,6 +241,21 @@
 									}
 								},
 								{
+									"slotId": 3,
+									"slotTypeAssetId":
+									{
+										"iD": "MWSlotTypeDataAsset:General_SlotType"
+									},
+									"equipmentData":
+									{
+										"equipmentId":
+										{
+											"iD": "MWHeatSinkDataAsset:ENDO_filler"
+										},
+										"healthState": "Healthy"
+									}
+								},
+								{
 									"slotId": 4,
 									"slotTypeAssetId":
 									{
@@ -345,7 +280,7 @@
 									{
 										"equipmentId":
 										{
-											"iD": "MWAmmoDataAsset:LMachineGun79_Standard_AmmoEquipment"
+											"iD": "MWAmmoDataAsset:LRM_AmmoEquipment"
 										},
 										"healthState": "Healthy"
 									}
@@ -410,7 +345,7 @@
 									{
 										"equipmentId":
 										{
-											"iD": "MWHeatSinkDataAsset:ENDO_filler"
+											"iD": "MWAmmoDataAsset:LRM_AmmoEquipment"
 										},
 										"healthState": "Healthy"
 									}
@@ -656,4 +591,4 @@
 				},
 				"installedTraits": []
 			}
-	
+		

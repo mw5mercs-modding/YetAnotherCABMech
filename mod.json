@@ -1,16 +1,14 @@
 {
-   "displayName" : "YetAnotherCABMech",
-   "version" : "1.0",
-   "buildNumber" : 39,
-   "description" : "A collection of Mech Variants based on the Community Asset Bundle (https://www.moddb.com/mods/mw5-cab-open).\r\n\r\nRequires YAML and the CAB Mods",
-   "author" : "Tromador",
-   "authorURL" : "",
-   "defaultLoadOrder" : 0,
-   "gameVersion" : "1.1.0",
-   "manifest" : [
-      
-   ],
-   "steamPublishedFileId" : 0,
-   "steamLastSubmittedBuildNumber" : 0,
-   "steamModVisibility" : "Private"
+	"displayName": "YetAnotherCABMech",
+	"version": "1.0",
+	"buildNumber": 87,
+	"description": "A collection of Mech Variants based on the Community Asset Bundle (https://www.moddb.com/mods/mw5-cab-open).\r\n\r\nRequires YAML and the CAB Mods",
+	"author": "Tromador",
+	"authorURL": "",
+	"defaultLoadOrder": 0,
+	"gameVersion": "1.1.0",
+	"manifest": [],
+	"steamPublishedFileId": 0,
+	"steamLastSubmittedBuildNumber": 0,
+	"steamModVisibility": "Private"
 }
